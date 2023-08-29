@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Display a map in Cesium JS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.98/Build/Cesium/Cesium.js"></script>
+    <style>
+      @import url(https://cesium.com/downloads/cesiumjs/releases/1.98/Build/Cesium/Widgets/widgets.css);
+      #cesiumContainer {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+    </style>
+  </head>
+  <body>
+    <div id="cesiumContainer">
+    </div>
+    <script>
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      imageryProvider: new Cesium.UrlTemplateImageryProvider({
+        url: `http://localhost:8001/assets/tiles/{z}/{x}/{y}.jpg`,
+        minimumLevel: 0,
+        maximumLevel: 20,
+        tileWidth: 512,
+        tileHeight: 512,
+      }),
+      terrainProvider: new Cesium.CesiumTerrainProvider({
+        //url: `http://localhost:8001/assets/terrain/`,
+        url: `https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=AjyHUGso904JqBrzgYmq`,
+        requestVertexNormals: true
+      })
+    });
+    </script>
+  </body>
+</html>

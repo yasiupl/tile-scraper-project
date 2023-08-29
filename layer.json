@@ -1,0 +1,395 @@
+{
+    "tiles": [
+        "http://localhost:8001/assets/terrain/{z}/{x}/{y}.terrain"
+    ],
+    "center": [
+        0,
+        0,
+        13
+    ],
+    "format": "quantized-mesh-1.0",
+    "version": "2.1.1",
+    "tilejson": "2.1.0",
+    "available": [
+        [
+            {
+                "endX": 1,
+                "endY": 0,
+                "startX": 0,
+                "startY": 0
+            }
+        ],
+        [
+            {
+                "endX": 3,
+                "endY": 1,
+                "startX": 0,
+                "startY": 0
+            }
+        ],
+        [
+            {
+                "endX": 7,
+                "endY": 3,
+                "startX": 0,
+                "startY": 0
+            }
+        ],
+        [
+            {
+                "endX": 15,
+                "endY": 7,
+                "startX": 0,
+                "startY": 1
+            }
+        ],
+        [
+            {
+                "endX": 31,
+                "endY": 14,
+                "startX": 0,
+                "startY": 2
+            }
+        ],
+        [
+            {
+                "endX": 63,
+                "endY": 29,
+                "startX": 0,
+                "startY": 4
+            }
+        ],
+        [
+            {
+                "endX": 127,
+                "endY": 58,
+                "startX": 0,
+                "startY": 8
+            }
+        ],
+        [
+            {
+                "endX": 255,
+                "endY": 116,
+                "startX": 0,
+                "startY": 16
+            }
+        ],
+        [
+            {
+                "endX": 511,
+                "endY": 233,
+                "startX": 0,
+                "startY": 33
+            }
+        ],
+        [
+            {
+                "endX": 1023,
+                "endY": 466,
+                "startX": 0,
+                "startY": 66
+            }
+        ],
+        [
+            {
+                "endX": 2047,
+                "endY": 933,
+                "startX": 0,
+                "startY": 133
+            }
+        ],
+        [
+            {
+                "endX": 4095,
+                "endY": 1866,
+                "startX": 0,
+                "startY": 267
+            }
+        ],
+        [
+            {
+                "endX": 8191,
+                "endY": 3732,
+                "startX": 0,
+                "startY": 534
+            }
+        ],
+        [
+            {
+                "endX": 16383,
+                "endY": 7464,
+                "startX": 0,
+                "startY": 1068
+            }
+        ],
+        [
+            {
+                "endX": 17664,
+                "endY": 12544,
+                "startX": 16896,
+                "startY": 12288
+            }
+        ],
+        [
+            {
+                "endX": 35328,
+                "endY": 25088,
+                "startX": 33792,
+                "startY": 24576
+            }
+        ]
+    ],
+    "data_type": "terrain-tiles",
+    "generator": "MapTiler Data",
+    "extensions": [
+        "octvertexnormals"
+    ],
+    "projection": "EPSG:4326",
+    "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy;MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>",
+    "description": "The tiles contain elevation data encoded into vector TIN polygons in format for the Cesium JavaScript library.",
+    "name": "Terrain 3D - Cesium quantized mesh",
+    "minzoom": 0,
+    "maxzoom": 15,
+    "tile_matrix_set": {
+        "min_x": -180,
+        "min_y": -90,
+        "max_x": 180,
+        "max_y": 90,
+        "items": [
+            {
+                "tile_width": 512,
+                "zoom_level": 0,
+                "tile_height": 512,
+                "matrix_width": 2,
+                "pixel_x_size": 0.3515625,
+                "pixel_y_size": 0.3515625,
+                "matrix_height": 1,
+                "scale_denominator": 139770566.00717947,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 1,
+                "tile_height": 512,
+                "matrix_width": 4,
+                "pixel_x_size": 0.17578125,
+                "pixel_y_size": 0.17578125,
+                "matrix_height": 2,
+                "scale_denominator": 69885283.00358973,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 2,
+                "tile_height": 512,
+                "matrix_width": 8,
+                "pixel_x_size": 0.087890625,
+                "pixel_y_size": 0.087890625,
+                "matrix_height": 4,
+                "scale_denominator": 34942641.50179487,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 3,
+                "tile_height": 512,
+                "matrix_width": 16,
+                "pixel_x_size": 0.0439453125,
+                "pixel_y_size": 0.0439453125,
+                "matrix_height": 8,
+                "scale_denominator": 17471320.750897434,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 4,
+                "tile_height": 512,
+                "matrix_width": 32,
+                "pixel_x_size": 0.02197265625,
+                "pixel_y_size": 0.02197265625,
+                "matrix_height": 16,
+                "scale_denominator": 8735660.375448717,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 5,
+                "tile_height": 512,
+                "matrix_width": 64,
+                "pixel_x_size": 0.010986328125,
+                "pixel_y_size": 0.010986328125,
+                "matrix_height": 32,
+                "scale_denominator": 4367830.187724358,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 6,
+                "tile_height": 512,
+                "matrix_width": 128,
+                "pixel_x_size": 0.0054931640625,
+                "pixel_y_size": 0.0054931640625,
+                "matrix_height": 64,
+                "scale_denominator": 2183915.093862179,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 7,
+                "tile_height": 512,
+                "matrix_width": 256,
+                "pixel_x_size": 0.00274658203125,
+                "pixel_y_size": 0.00274658203125,
+                "matrix_height": 128,
+                "scale_denominator": 1091957.5469310896,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 8,
+                "tile_height": 512,
+                "matrix_width": 512,
+                "pixel_x_size": 0.001373291015625,
+                "pixel_y_size": 0.001373291015625,
+                "matrix_height": 256,
+                "scale_denominator": 545978.7734655448,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 9,
+                "tile_height": 512,
+                "matrix_width": 1024,
+                "pixel_x_size": 0.0006866455078125,
+                "pixel_y_size": 0.0006866455078125,
+                "matrix_height": 512,
+                "scale_denominator": 272989.3867327724,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 10,
+                "tile_height": 512,
+                "matrix_width": 2048,
+                "pixel_x_size": 0.00034332275390625,
+                "pixel_y_size": 0.00034332275390625,
+                "matrix_height": 1024,
+                "scale_denominator": 136494.6933663862,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 11,
+                "tile_height": 512,
+                "matrix_width": 4096,
+                "pixel_x_size": 0.000171661376953125,
+                "pixel_y_size": 0.000171661376953125,
+                "matrix_height": 2048,
+                "scale_denominator": 68247.3466831931,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 12,
+                "tile_height": 512,
+                "matrix_width": 8192,
+                "pixel_x_size": 0.0000858306884765625,
+                "pixel_y_size": 0.0000858306884765625,
+                "matrix_height": 4096,
+                "scale_denominator": 34123.67334159655,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 13,
+                "tile_height": 512,
+                "matrix_width": 16384,
+                "pixel_x_size": 0.00004291534423828125,
+                "pixel_y_size": 0.00004291534423828125,
+                "matrix_height": 8192,
+                "scale_denominator": 17061.836670798275,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 14,
+                "tile_height": 512,
+                "matrix_width": 32768,
+                "pixel_x_size": 0.000021457672119140625,
+                "pixel_y_size": 0.000021457672119140625,
+                "matrix_height": 16384,
+                "scale_denominator": 8530.918335399138,
+                "origin": [
+                    90,
+                    -180
+                ]
+            },
+            {
+                "tile_width": 512,
+                "zoom_level": 15,
+                "tile_height": 512,
+                "matrix_width": 65536,
+                "pixel_x_size": 0.000010728836059570312,
+                "pixel_y_size": 0.000010728836059570312,
+                "matrix_height": 32768,
+                "scale_denominator": 4265.459167699569,
+                "origin": [
+                    90,
+                    -180
+                ]
+            }
+        ]
+    },
+    "crs": "EPSG:4326",
+    "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+    "extent": [
+        -180,
+        -90,
+        180,
+        90
+    ],
+    "logo": "https://api.maptiler.com/resources/logo.svg"
+}
