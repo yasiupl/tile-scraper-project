@@ -17,4 +17,5 @@ class CORSRequestHandler(SimpleHTTPRequestHandler):
 
 
 httpd = HTTPServer(('localhost', 8001), CORSRequestHandler)
+print("http://localhost:8001")
 httpd.serve_forever()

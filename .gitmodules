@@ -1,3 +1,6 @@
 [submodule "the-ultimate-tile-stitcher"]
 	path = the-ultimate-tile-stitcher
 	url = https://github.com/stamen/the-ultimate-tile-stitcher
+[submodule "tile-scraper"]
+	path = tile-scraper
+	url = git@github.com:yasiupl/tile-scraper.git
