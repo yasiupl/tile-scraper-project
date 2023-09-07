@@ -15,17 +15,20 @@
     <div id="cesiumContainer">
     </div>
     <script>
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlOTUzMWY5Yy1jOWQxLTQ3ZTUtYjcyMC00ZTRiNjk5ZWY2MmUiLCJpZCI6MTYyODQ2LCJpYXQiOjE2OTMxMzA1MjV9.b9W-evsHMWtZVIbS2APLJSQEOAWLkXTHFa7ptBkBBmQ';
+
     const viewer = new Cesium.Viewer('cesiumContainer', {
       imageryProvider: new Cesium.UrlTemplateImageryProvider({
         url: `http://localhost:8001/assets/tiles/{z}/{x}/{y}.jpg`,
+        //url: `https://api.maptiler.com/tiles/satellite-v2/{z}/{x}/{y}.jpg?key=oqZTZbMsDqOvqrNdg4We`,
         minimumLevel: 0,
         maximumLevel: 20,
         tileWidth: 512,
         tileHeight: 512,
       }),
       terrainProvider: new Cesium.CesiumTerrainProvider({
-        //url: `http://localhost:8001/assets/terrain/`,
-        url: `https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=AjyHUGso904JqBrzgYmq`,
+        url: `http://localhost:8001/assets/terrain/`,
+        //url: `https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=oqZTZbMsDqOvqrNdg4We`,
         requestVertexNormals: true
       })
     });
